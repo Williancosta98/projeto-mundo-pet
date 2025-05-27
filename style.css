@@ -1,0 +1,113 @@
+* {
+    font-family: Montserrat;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 69%;
+}
+
+header {
+    margin: 59px 0 360px 93px;
+    cursor: pointer;
+}
+
+.link-menu {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 23px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(207, 204, 204);
+    text-decoration: none;
+}
+
+.link-menu:hover{
+    opacity: 0.5;
+}
+
+.button-menu {
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    margin-left: 23px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-menu:hover{
+    opacity: 0.7;
+}
+
+.button-menu:active{
+   font-size: 28px;
+    color: #000;
+}
+
+.logo-image {
+   width: 565px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+section {
+    display: inline-block;
+    padding-left: 200px;
+    position: absolute;
+}
+
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 900px;
+    margin-left: 5%;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    border-radius: 30.5px;
+    background: #ADFF00;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 40%;
+}
+
+.button-main:hover{
+    opacity: 0.3;
+}
+
+.button-main:active{
+    opacity: 0.7;
+}
